@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/aaron.jpg`} alt="Aaron's portrait" />
+        <img src={`${PUBLIC_URL}/images/aaron.jpeg`} alt="Aaron's portrait" />
       </Link>
       <header>
         <h2>Aaron Osterby</h2>
@@ -19,22 +19,18 @@ const SideBar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Aaron. I like making things and connecting people.
-        I am a <a href="https://icme.stanford.edu/">Carnegie Mellon</a> graduate, YC Alumni, and
-        the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
-        at <a href="https://matroid.com">Matroid</a>
-        , <a href="https://planet.com">Planet</a>
-        , <a href="https://planetaryresources.com">Planetary Resources</a>
-        , <a href="https://facebook.com">Facebook</a>
-        , and <a href="https://seds.org">SEDS</a>.
+      <p>Hi, I&apos;m Aaron. I like making things and connecting people. Currently developing an
+        NFT-supported wine swapping project for cellar owners and managers. If that&apos;s
+        interesting to you let&apos;s connect. I am a <a href="https://cmu.edu">Carnegie Mellon</a>
+        &nbsp;MSIT graduate, Adelaidian, start-up advisor, and software development manager
+        at <a href="https://isoton.com">Isoton</a>.
+        Before Isoton I was
+        at <a href="https://adelaide.edu.au">University of Adelaide</a>
+        , <a href="https://sweat.com">Sweat</a>
+        , <a href="https://portalink.com">Portalink</a>. Keen sailor and former inshore racing
+        crew on CYCSA&apos;s Alliance.
       </p>
-      <ul className="actions">
-        <li>
-          {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
-        </li>
-      </ul>
     </section>
-
     <section id="footer">
       <ContactIcons />
       <p className="copyright">&copy; Aaron Osterby<Link to="/">osterby.github.io/personal-site</Link>.</p>
