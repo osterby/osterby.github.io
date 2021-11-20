@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://mldangelo.com/",
+  "homepage": "https://osterby.github.io/personal-site",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/osterby/personal-site.git"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
@@ -26,7 +26,7 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "raw.macro": "^0.4.2",
-    "react": "^17.0.1",
+    "react": "^17.0.2",
     "react-burger-menu": "^3.0.3",
     "react-dom": "^17.0.1",
     "react-ga": "^3.3.0",
