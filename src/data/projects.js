@@ -7,7 +7,7 @@ const data = [
     date: '2021-09-20',
     desc:
       'In development to connect wine collectors with wine cellar operators '
-      + 'who list rare, collectable wines eiher for purchase or for retail staking. ',
+      + 'who list rare, collectable wines either for purchase or for retail staking. ',
   },
 ];
 
